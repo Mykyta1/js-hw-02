@@ -12,4 +12,5 @@ for (let i = 0; input !== null; i++) {
     input = prompt("Введите число!");}
   }
   for (let i = 0, sum = 0; i < numbers.length; sum += numbers[i++])
+  
   alert(`Общая сумма чисел равна ${sum}`);
